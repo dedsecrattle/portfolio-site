@@ -14,7 +14,7 @@ export function Nav() {
   return (
     <header className="sticky top-0 z-50 border-b border-border/60 bg-background/80 backdrop-blur">
       <nav className="mx-auto flex h-16 max-w-4xl items-center justify-between px-6">
-        <Link href="#top" className="font-mono text-sm font-semibold tracking-tight">
+        <Link href="#top" className="font-mono text-xl font-bold tracking-tight sm:text-2xl">
           {profile.name.split(" ")[0]}
           <span className="text-brand">.</span>
         </Link>

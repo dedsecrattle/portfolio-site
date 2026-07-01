@@ -1,4 +1,5 @@
 import { BootScreen } from "@/components/boot-screen";
+import { Cursor } from "@/components/cursor";
 import { Nav } from "@/components/nav";
 import { Hero } from "@/components/sections/hero";
 import { About } from "@/components/sections/about";
@@ -13,6 +14,7 @@ import { profile } from "@/lib/data";
 export default function Home() {
   return (
     <>
+      <Cursor />
       <BootScreen />
       {/* faint CRT scanlines over everything, non-interactive */}
       <div aria-hidden className="scanlines pointer-events-none fixed inset-0 z-[60]" />
