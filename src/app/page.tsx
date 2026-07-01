@@ -9,7 +9,6 @@ import { Projects } from "@/components/sections/projects";
 import { Experience } from "@/components/sections/experience";
 import { Education } from "@/components/sections/education";
 import { Awards } from "@/components/sections/awards";
-import { Stats } from "@/components/sections/stats";
 import { Contact } from "@/components/sections/contact";
 import { profile } from "@/lib/data";
 
@@ -38,7 +37,6 @@ export default function Home() {
         <Experience />
         <Education />
         <Awards />
-        <Stats />
         <Contact />
       </main>
       <footer className="border-t border-border/60">

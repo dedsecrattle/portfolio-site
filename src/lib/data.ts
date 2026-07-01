@@ -231,10 +231,3 @@ export const awards: Award[] = [
     year: "2021",
   },
 ];
-
-export const stats: { value: string; label: string }[] = [
-  { value: "5+", label: "National Awards" },
-  { value: "12", label: "Countries Visited" },
-  { value: "5+", label: "Years Experience" },
-  { value: "1,000+", label: "Cups of Coffee" },
-];
