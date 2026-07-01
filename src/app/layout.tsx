@@ -14,13 +14,26 @@ const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
 });
 
+const siteUrl = "https://prabhatk.tech";
+const title = `${profile.name} — ${profile.tagline}`;
+
 export const metadata: Metadata = {
-  title: `${profile.name} — ${profile.tagline}`,
+  metadataBase: new URL(siteUrl),
+  title,
   description: profile.bio,
+  authors: [{ name: profile.name, url: siteUrl }],
   openGraph: {
-    title: `${profile.name} — ${profile.tagline}`,
+    title,
     description: profile.bio,
+    url: siteUrl,
+    siteName: profile.name,
     type: "website",
+    locale: "en_SG",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description: profile.bio,
   },
 };
 
