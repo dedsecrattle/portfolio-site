@@ -184,6 +184,59 @@ export const education: Education[] = [
   },
 ];
 
+export type Award = {
+  title: string;
+  detail: string;
+  year?: string;
+  url?: string;
+};
+
+export const awards: Award[] = [
+  {
+    title: "NUS Science & Technology Undergraduate Scholarship",
+    detail: "One of 7 Indian students awarded in the Class of 2026 — covers tuition and living expenses for the full undergraduate degree.",
+    year: "2022",
+  },
+  {
+    title: "Software Engineering Focus Area (Distinction)",
+    detail: "National University of Singapore.",
+    year: "Jan 2025",
+    url: "https://credentials.nus.edu.sg/88994533-c605-433f-8419-921534c4992c",
+  },
+  {
+    title: "Artificial Intelligence Focus Area (Merit)",
+    detail: "National University of Singapore.",
+    year: "Jan 2025",
+    url: "https://credentials.nus.edu.sg/f1c0b87b-0115-4ca9-bc20-df1bf7ab7b12",
+  },
+  {
+    title: "Honour List of Student Tutor, AY24/25",
+    detail: "National University of Singapore.",
+    year: "Dec 2025",
+    url: "https://credentials.nus.edu.sg/8a77bb9f-cc51-4972-a19f-270cd6b260ff",
+  },
+  {
+    title: "Honour List of Student Tutors, AY23/24",
+    detail: "National University of Singapore.",
+    year: "Dec 2024",
+    url: "https://credentials.nus.edu.sg/045dce22-e300-4abe-a7c8-b9fa3aaaf048",
+  },
+  {
+    title: "National Talent Search Examination (NTSE) Scholar",
+    detail: "National scholarship for academic merit; also qualified Pre-RMO and RMO (Regional Mathematical Olympiad).",
+  },
+  {
+    title: "CBSE Class 12 — Regional Topper",
+    detail: "97.6% aggregate; highest scorer in school and the Mumbai Region.",
+    year: "2021",
+  },
+  {
+    title: "KVS Merit Certificate",
+    detail: "Placed in the top 1.5% of students across all Kendriya Vidyalayas nationwide.",
+    year: "2021",
+  },
+];
+
 export const stats: { value: string; label: string }[] = [
   { value: "5+", label: "National Awards" },
   { value: "12", label: "Countries Visited" },

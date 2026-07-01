@@ -7,7 +7,7 @@ import { socials } from "@/lib/data";
 export function Contact() {
   return (
     <section id="contact" className="mx-auto max-w-4xl px-6 py-16 pb-28">
-      <SectionHeading n="06" title="Get in touch" />
+      <SectionHeading n="07" title="Get in touch" />
       <p className="max-w-xl text-lg leading-relaxed text-muted-foreground">
         Open to interesting problems, collaborations, and a good conversation over coffee. The fastest
         way to reach me is email.
